@@ -1,81 +1,115 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
     text-align: center;
-    margin: 0;
+    font-size: 1.5rem;
     background-image: url("https://i.pinimg.com/originals/27/da/26/27da26e786673f4055ff9b0776bca092.jpg");
-    background-repeat:round;
+    background-repeat: round;
     background-size: contain;
-    height: 10%;
     
 }
 
 h1{
-    margin: 2rem;
-    font-size: 2.5rem;
-    color:orangered;
+    padding-top: 2.6rem;
+    color:brown;
+    margin:0.8rem;
+    font-size: 2.8rem;
 }
-
 
 textarea{
     display: block;
-    margin-left: 28rem;
+    margin: auto;
     border: 2px solid black;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 550;
-    width: 38rem;
+    width: 33rem;
     height: 10rem;
+    padding: 0.5rem;
+    color: #10B981;
 
 }
 
 #translate{
     font-size: 1.4rem;
-    margin-right: 21rem;
+    margin-right: 8rem;
     font-weight: 600;
     padding-top: 0.8rem;
-    color: brown;
+    color:#111827;
+    margin-top: 1rem;
+
 }
 
 button{
     font-size: 1.5rem;
-    background-color:rgb(25, 180, 25);
-    color:black;
-    padding: 0.2px;
-    margin-top: 0.8rem;
-    margin-right: 14rem;
-    height: 4rem;
-    width: 25rem;
+    background-color:#10B981;
+    margin:auto;
+    color: white;
+    padding: 1rem;
+    margin-top: 1.6rem;
+    border: 2px solid white;
+    border-radius: 14px;
+    
 }
 
 #output{
-    width: 38rem;
-    height: 6rem;
+    font-size: 2rem;
+    padding: 1.2rem;
+    width: 33rem;
+    height: 8rem;
     border: 2px solid black;
-    margin-left: 28rem;
+    margin: auto;
     background-color: white;
-    margin-bottom: 0.2rem;
-    font-size: 1.7rem;
-
+    margin-bottom: 0.8rem;
+    background-color: #111827;
+    color: #10B981;
 }
+
 #about{
     box-sizing: border-box;
     width: 40%;
-    margin-left: 27rem;
+    margin:auto;
 }
 
-p{
-    font-size: 1.8rem;
-    padding-top: 0.4rem;
-    font-weight: 900;
-    margin-right: 6rem;
-} 
+.about{
+    color:#064E3B;
+    font-weight: bolder;
+}
 section{
     font-size: 1.3rem;
     
 }
 footer{
-    margin-top: 2rem;
-    background-color: yellowgreen;
-    width: 100%;
-    height: 15rem;
-    font-family:Georgia, Times, serif
-
+    text-align: center;
+    background-color:#6B7280;  
 }
+
+p{
+    font-size: 2rem;
+    color:white;
+    font-family: 'Merienda', cursive;
+    padding: 0.2rem;
+}
+
+img{
+    height: 2rem;
+    width: 2rem;
+    margin: 0.2rem;
+    box-shadow:0px 0px 10px 0px black;
+}
+
+img:hover{
+    background-color: blue;
+}
+
+@media (min-width: 768px) and (max-width: 1199.98px){
+    body {
+      background-color: lightpink;
+    }
+  }
